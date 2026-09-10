@@ -4,7 +4,7 @@
 > *Engineered and contributed by **not_bob & seal_klub**.*
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-NOt--Bob--N--Seal--Klub%2Fpact5--seal--klub--prover-black?logo=github)](https://github.com/NOt-Bob-N-Seal-Klub/pact5-seal-klub-prover)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-NOt--Bob--N--Seal--Klub%2FSeal--Klub--prover--v2.0-black?logo=github)](https://github.com/NOt-Bob-N-Seal-Klub/Seal-Klub-prover-v2.0)
 [![Pact 5.4.1 Compatible](https://img.shields.io/badge/Pact-5.4.1%20Compatible-green)](https://github.com/kadena-io/pact-5)
 
 ---
@@ -13,11 +13,11 @@
 
 You can clone, install, or download the pre-built binaries and plugin packages directly from the official GitHub repository:
 
-* **GitHub Repository**: [https://github.com/NOt-Bob-N-Seal-Klub/pact5-seal-klub-prover](https://github.com/NOt-Bob-N-Seal-Klub/pact5-seal-klub-prover)
+* **GitHub Repository**: [https://github.com/NOt-Bob-N-Seal-Klub/Seal-Klub-prover-v2.0](https://github.com/NOt-Bob-N-Seal-Klub/Seal-Klub-prover-v2.0)
 * **Clone & Build**:
   ```bash
-  git clone https://github.com/NOt-Bob-N-Seal-Klub/pact5-seal-klub-prover.git
-  cd pact5-seal-klub-prover
+  git clone https://github.com/NOt-Bob-N-Seal-Klub/Seal-Klub-prover-v2.0.git
+  cd Seal-Klub-prover-v2.0
   npm install
   npm run build
   npm link # exposes 'seal-klub-prover' globally
