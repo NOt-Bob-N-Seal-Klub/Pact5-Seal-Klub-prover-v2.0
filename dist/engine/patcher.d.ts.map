@@ -1,0 +1,1 @@
+{"version":3,"file":"patcher.d.ts","sourceRoot":"","sources":["../../src/engine/patcher.ts"],"names":[],"mappings":"AAAA;;GAEG;AAEH,OAAO,KAAK,EAAE,oBAAoB,EAAE,MAAM,YAAY,CAAC;AAEvD,wBAAgB,gBAAgB,CAC9B,MAAM,EAAE,MAAM,EACd,UAAU,EAAE,oBAAoB,EAAE,GACjC;IACD,aAAa,EAAE,MAAM,CAAC;IACtB,cAAc,EAAE,MAAM,EAAE,CAAC;CAC1B,CAwFA"}

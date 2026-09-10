@@ -1,0 +1,72 @@
+{
+  "name": "@not-bob/seal-klub-prover",
+  "version": "2.0.0",
+  "description": "Pact5-seal_Klub-Prover-v2.0: Formal Verification, SMT Balance Invariant Solver, Post-Quantum FIPS 205 Guard Checker, and Autonomous A2A Self-Healing Plugin for Pact Smart Contracts.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "seal-klub-prover": "./dist/cli.js",
+    "pact-prover": "./dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./connector": {
+      "types": "./dist/connector.d.ts",
+      "import": "./dist/connector.js"
+    },
+    "./engine": {
+      "types": "./dist/engine/index.d.ts",
+      "import": "./dist/engine/index.js"
+    },
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "import": "./dist/server.js"
+    },
+    "./mcp": {
+      "types": "./dist/mcp-bridge/prover-tool-factory.d.ts",
+      "import": "./dist/mcp-bridge/prover-tool-factory.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js serve",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1"
+  },
+  "author": "not_bob & seal_klub",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/NOt-Bob-N-Seal-Klub/pact5-seal-klub-prover#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOt-Bob-N-Seal-Klub/pact5-seal-klub-prover.git"
+  },
+  "keywords": [
+    "pact",
+    "pact5",
+    "kadena",
+    "chainweb",
+    "formal-verification",
+    "smt-solver",
+    "security-scanner",
+    "a2a-healing",
+    "post-quantum",
+    "fips-205",
+    "slh-dsa",
+    "mcp-plugin"
+  ]
+}
