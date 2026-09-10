@@ -50,10 +50,10 @@
   },
   "author": "not_bob & seal_klub",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/NOt-Bob-N-Seal-Klub/Seal-Klub-prover-v2.0#readme",
+  "homepage": "https://github.com/NOt-Bob-N-Seal-Klub/Pact5-Seal-Klub-prover-v2.0#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NOt-Bob-N-Seal-Klub/Seal-Klub-prover-v2.0.git"
+    "url": "git+https://github.com/NOt-Bob-N-Seal-Klub/Pact5-Seal-Klub-prover-v2.0.git"
   },
   "keywords": [
     "pact",
